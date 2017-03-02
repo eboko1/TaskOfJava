@@ -25,6 +25,12 @@ public class Box {
 
         }
 
+        public void  change(int x, int y, int z){
+            this.width = x;
+            this.height = y;
+            this.depth = z;
+        }
+
 
 
 

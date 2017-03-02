@@ -13,11 +13,16 @@ public class BoxDemo {
 
 
             boxBig.print();
-            boxSmall.print();
-            boxLittle.print();
+           // boxSmall.print();
+          //  boxLittle.print();
 
-            boxBig=boxSmall;
+           // boxBig=boxSmall;
+           // boxBig.print();
+            boxBig.change(100, 200,500); 
             boxBig.print();
+
+
+
 
         }
 
