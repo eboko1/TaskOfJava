@@ -21,7 +21,7 @@ public class Box {
 
         public void print(){
             int v = width*height*depth;
-            System.out.println("V = " + v);
+            System.out.println(width+" | "+height+" | "+depth+" | "+"V = " + v);
 
         }
 

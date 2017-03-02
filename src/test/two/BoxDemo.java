@@ -16,6 +16,9 @@ public class BoxDemo {
             boxSmall.print();
             boxLittle.print();
 
+            boxBig=boxSmall;
+            boxBig.print();
+
         }
 
 
